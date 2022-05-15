@@ -164,3 +164,38 @@ nav a {
     left: 20px;
     font-size: var(--size-s);
 }
+
+
+/* ---------------- Page ---------------- */
+
+.page {
+    max-width: var(--fixed-width);
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 60px;
+    justify-content: flex-end;
+}
+
+.page a {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: var(--size-m);
+    /* prevent double border */
+    outline: 1px solid var(--second-color);
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.page a:nth-child(2) {
+    background: var(--primary-color);
+    color: white;
+}
+
+.page img {
+    width: 24px;
+    height: 24px;
+}
