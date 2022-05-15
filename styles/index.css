@@ -1,9 +1,8 @@
 :root {
     --primary-color: #3F5D45;
-    --second-color: ##EAF0ED;
+    --second-color: #EAF0ED;
     --fixed-width: 940px;
-    --size-xs: 14px;
     --size-s: 16px;
-    --size-m: 18px;
-    --size-l: 20px;
+    --size-m: 20px;
+    --size-l: 24px;
 }
