@@ -1,0 +1,35 @@
+/* ---------------- Header ---------------- */
+
+.header {
+    max-width: var(--fixed-width);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 36.5px;
+}
+
+.header .logo img {
+    width: 220px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: var(--size-s);
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+
+/* ---------------- Banner ---------------- */
+
+.banner {
+    max-width: var(--fixed-width);
+    margin: auto;
+}
