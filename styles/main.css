@@ -33,3 +33,49 @@ nav a {
     max-width: var(--fixed-width);
     margin: auto;
 }
+
+
+/* ---------------- Product ---------------- */
+
+.products {
+    max-width: var(--fixed-width);
+    margin: auto;
+    padding: 60px 0 30px;
+    text-align: center;
+}
+
+.products .wrap {
+    display: flex;
+}
+
+.products .categories {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    font-size: var(--size-l);
+}
+
+.products .categories h3,
+.products .categories a {
+    width: 300px;
+    height: 65px;
+    display: flex;
+    border: 1px solid var(--second-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .categories h3 {
+    background: var(--primary-color);
+    color: white;
+}
+
+.products .categories :nth-child(2) {
+    background: var(--second-color);
+}
+
+.products .items {
+    width: 600px;
+}
