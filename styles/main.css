@@ -141,12 +141,14 @@ nav a {
     font-size: var(--size-l);
     background: var(--second-color);
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 .products .items .favorite {
     position: absolute;
     top: 19px;
     right: 22px;
+    cursor: pointer;
 }
 
 .products .items .recommended {
