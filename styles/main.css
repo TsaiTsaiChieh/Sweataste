@@ -142,6 +142,7 @@ nav a {
     background: var(--second-color);
     color: var(--primary-color);
     cursor: pointer;
+    font-weight: 700;
 }
 
 .products .items .favorite {
@@ -190,6 +191,10 @@ nav a {
     outline: 1px solid var(--second-color);
     margin-top: 1px;
     margin-left: 1px;
+}
+
+.page a {
+    color: var(--primary-color);
 }
 
 .page a:nth-child(2) {
