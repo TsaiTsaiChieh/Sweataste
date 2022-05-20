@@ -76,7 +76,7 @@ nav a {
     color: white;
 }
 
-.products .categories ul li:nth-child(1) {
+.products .categories .active {
     background: var(--second-color);
 }
 
