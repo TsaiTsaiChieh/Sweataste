@@ -55,16 +55,18 @@ nav a {
     margin-right: 20px;
 }
 
-.products .categories>* {
+.products .categories h2,
+.products .categories ul>* {
     width: 100%;
-    padding-top: 19.5px;
-    padding-bottom: 19.5px;
+    padding: 20.5px 0;
     font-weight: 600;
 }
 
+.products .categories li {
+    outline: 1px solid var(--second-color);
+}
+
 .products .categories a {
-    box-sizing: border-box;
-    border: 1px solid var(--second-color);
     color: var(--primary-color);
     text-decoration: none;
 }
@@ -74,7 +76,7 @@ nav a {
     color: white;
 }
 
-.products .categories :nth-child(2) {
+.products .categories ul li:nth-child(1) {
     background: var(--second-color);
 }
 
