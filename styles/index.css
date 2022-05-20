@@ -1,8 +1,9 @@
 @font-face {
     font-family: "PingFang TC";
     font-style: normal;
-    font-weight: 400;
-    src: url('../asset/PingFang-SC-Regular.woff2') format("woff2");;
+    font-weight: 300;
+    src: url('../asset/PingFangTC-Regular.ttf') format("ttf");
+    ;
 }
 
 :root {
@@ -12,8 +13,4 @@
     --size-s: 16px;
     --size-m: 20px;
     --size-l: 24px;
-}
-
-body {
-    font-family: "PingFang TC";
 }
