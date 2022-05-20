@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "PingFang TC";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../asset/PingFang-SC-Regular.woff2') format("woff2");;
+}
+
 :root {
     --primary-color: #3F5D45;
     --second-color: #EAF0ED;
@@ -5,4 +12,8 @@
     --size-s: 16px;
     --size-m: 20px;
     --size-l: 24px;
+}
+
+body {
+    font-family: "PingFang TC";
 }
