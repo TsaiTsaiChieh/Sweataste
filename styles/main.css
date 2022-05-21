@@ -2,6 +2,7 @@
 
 .header {
     max-width: var(--fixed-width);
+    height: 40px;
     display: flex;
     justify-content: space-between;
     margin: 30px auto 36.5px;
@@ -17,12 +18,16 @@ nav {
     align-items: center;
 }
 
-nav a {
+nav a:not(.cart) {
+    padding: 12px 29px;
     text-decoration: none;
     font-size: var(--size-s);
     color: var(--primary-color);
     font-weight: 600;
-    margin-left: 60px;
+}
+
+nav .cart {
+    padding: 7px 0 7px 50px;
 }
 
 
