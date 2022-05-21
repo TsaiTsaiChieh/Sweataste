@@ -48,9 +48,7 @@ nav a {
 }
 
 .products .categories {
-    display: flex;
     width: 300px;
-    flex-direction: column;
     font-size: var(--size-l);
     margin-right: 20px;
 }
