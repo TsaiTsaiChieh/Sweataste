@@ -79,7 +79,8 @@ nav .cart {
     color: white;
 }
 
-.products .categories .active {
+.products .categories .active,
+.products .categories li:hover {
     background: var(--second-color);
 }
 
@@ -197,4 +198,8 @@ nav .cart {
 .page img {
     width: 24px;
     height: 24px;
+}
+
+.page li:hover {
+    background: var(--second-color);
 }
