@@ -156,9 +156,7 @@ nav a {
 }
 
 .items .recommend {
-    width: 36px;
-    height: 106.73px;
-    display: flex;
+    padding: 11px 10px;
     position: absolute;
     top: 0;
     left: 20px;
@@ -167,8 +165,6 @@ nav a {
     writing-mode: vertical-lr;
     letter-spacing: 5px;
     font-size: var(--size-s);
-    justify-content: center;
-    align-items: center;
 }
 
 
