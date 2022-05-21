@@ -126,7 +126,8 @@ nav a {
 }
 
 .products .add-cart {
-    padding: 20.5px;
+    border: none;
+    padding: 16px 90px;
     background: var(--second-color);
     color: var(--primary-color);
     font-size: var(--size-l);
